@@ -12,8 +12,8 @@ Scan for installation of malicious Chrome extensions
 On the eve of Christmas, developers of the data loss prevention service Cyberhaven received an email allegedly from Google, claiming that the company’s Chrome extension did not comply with Google’s terms and requiring immediate action, or else the extension would be removed. The email contained a link to a Google consent screen, requesting access authorization for the OAuth application Privacy Policy Extension. A developer from Cyberhaven agreed to the authorization, allowing the attacker to upload a new version containing backdoors to the Chrome Web Store. Between December 25 at 1:32 AM UTC and December 26 at 2:50 AM UTC, running Chrome browsers would automatically download the malicious version v24.10.4. Cyberhaven noticed this security incident and quickly released a new version. After this attack was made public, security researchers discovered that at least 36 Chrome extensions had been similarly targeted by phishing attacks, some of which had malicious backdoors and had existed in the Chrome Web Store for as long as 18 months. The total number of installations for these extensions was around 2.6 million. Most affected extensions were related to AI tools and VPNs, such as GPT 4 Summary with OpenAI, Proxy SwitchyOmega (V3), Wayin AI, AI Assistant - ChatGPT and Gemini for Chrome, and so on.
 
 # Source: 
-https://t.me/AI_News_CN/15230
-https://www.solidot.org/story?sid=80237
-https://arstechnica.com/security/2025/01/dozens-of-backdoored-chrome-extensions-discovered-on-2-6-million-devices/
-https://www.extensiontotal.com/cyberhaven-incident-live
+ - https://t.me/AI_News_CN/15230
+ - https://www.solidot.org/story?sid=80237
+ - https://arstechnica.com/security/2025/01/dozens-of-backdoored-chrome-extensions-discovered-on-2-6-million-devices/
+ - https://www.extensiontotal.com/cyberhaven-incident-live
 

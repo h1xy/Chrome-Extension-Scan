@@ -86,9 +86,9 @@ class ExtensionChecker {
 
     getStatus(installed, expectedVersion) {
         if (!installed.installed) return 'Not Installed';
-        if (!installed.enabled) return 'Installed but Disabled';
-        if (installed.version === expectedVersion) return 'Version Match';
-        return `Version Mismatch (Current: ${installed.version})`;
+        if (!installed.enabled) return '<span style="color:red; font-weight: bold;">Installed but Disabled</span>';
+        if (installed.version === expectedVersion) return '<span style="color:red; font-weight: bold;">Version Match</span>';
+        return `Version Mismatch`;
     }
 
     createReport(results) {

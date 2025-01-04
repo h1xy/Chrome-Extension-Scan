@@ -1,0 +1,41 @@
+<!-- popup.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            width: 800px;
+            padding: 10px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .status-ok {
+            color: green;
+        }
+        .status-warning {
+            color: orange;
+        }
+        .status-error {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h2>扩展检查结果</h2>
+    <div id="results"></div>
+    <script src="checker.js"></script>
+    <script src="popup.js"></script>
+</body>
+</html>

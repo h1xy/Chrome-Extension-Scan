@@ -85,21 +85,21 @@ class ExtensionChecker {
     }
 
     getStatus(installed, expectedVersion) {
-        if (!installed.installed) return '未安装';
-        if (!installed.enabled) return '已安装但未启用';
-        if (installed.version === expectedVersion) return '版本匹配';
-        return `版本不匹配 (当前: ${installed.version})`;
+        if (!installed.installed) return 'Not Installed';
+        if (!installed.enabled) return 'Installed but Disabled';
+        if (installed.version === expectedVersion) return 'Version Match';
+        return `Version Mismatch (Current: ${installed.version})`;
     }
 
     createReport(results) {
         const table = document.createElement('table');
         table.innerHTML = `
             <tr>
-                <th>扩展名称</th>
+                <th>Extension Name</th>
                 <th>ID</th>
-                <th>预期版本</th>
-                <th>当前版本</th>
-                <th>状态</th>
+                <th>Malicious Version</th>
+                <th>Current Version</th>
+                <th>Status</th>
             </tr>
         `;
 

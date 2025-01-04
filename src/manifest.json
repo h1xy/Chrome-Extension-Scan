@@ -1,0 +1,14 @@
+// 创建 Chrome 扩展的 manifest.json
+
+{
+    "manifest_version": 3,
+    "name": "Malicious Extension Checker",
+    "version": "1.0",
+    "description": "Scan for installation of malicious extensions",
+    "permissions": [
+        "management"
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    }
+}

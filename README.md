@@ -3,7 +3,7 @@ Scan for installation of malicious Chrome extensions
 
 # How to use
 1. [Download release](https://github.com/h1xy/Chrome-Extension-Scan/releases/tag/v1.0) 
-2. Go to [chrome://extensions](chrome://extensions/), drag download .zip to the page
+2. Go to chrome://extensions, drag download .zip to the page
 3. Click "Malicious Extension Checker" to check it out.
 
 # Background

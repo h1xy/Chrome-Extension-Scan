@@ -8,8 +8,11 @@ On the eve of Christmas, developers of the data loss prevention service Cyberhav
 
 # Source: 
 https://t.me/AI_News_CN/15230
+
 https://www.solidot.org/story?sid=80237
+
 https://arstechnica.com/security/2025/01/dozens-of-backdoored-chrome-extensions-discovered-on-2-6-million-devices/
+
 https://www.extensiontotal.com/cyberhaven-incident-live
 
 # How to use

@@ -17,3 +17,6 @@ On the eve of Christmas, developers of the data loss prevention service Cyberhav
  - https://arstechnica.com/security/2025/01/dozens-of-backdoored-chrome-extensions-discovered-on-2-6-million-devices/
  - https://www.extensiontotal.com/cyberhaven-incident-live
 
+# Screencopy
+![image](https://github.com/user-attachments/assets/a4a471f6-fa6f-410c-bbbb-3887b52c1f25)
+
